@@ -1,0 +1,48 @@
+.heading {
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.checked-button{
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw; /*Viewport view*/
+    background-color: rgb(192, 191, 191);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.change-table{
+    border: solid 1px;
+    padding: 1rem;
+}
+.no-of-notes{
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgb(169, 231, 255);
+}
+.row{
+    border: solid 1px black;
+}
+.table-heading{
+    border: 1px solid black;
+}
+
+caption {
+    font-size: larger;
+    margin: 10px 0;
+}
